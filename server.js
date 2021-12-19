@@ -1,7 +1,6 @@
 const express = require('express')
 const nodemailer = require('nodemailer')
 const app = express()
-const port = 8000
 
 app.use(express.urlencoded({
     extended: false
@@ -39,7 +38,5 @@ app.post("/send-mail", (req, res) => {
         }
     );
 })
-
-app.listen(port, () => {
-    console.log(`application runting on http://localhost:${port}`)
-});
+var port_number = server.listen(process.env.PORT || 3000);
+app.listen(port_number);
