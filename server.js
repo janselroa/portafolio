@@ -38,5 +38,5 @@ app.post("/send-mail", (req, res) => {
         }
     );
 })
-var port_number = server.listen(process.env.PORT || 3000);
-app.listen(port_number);
+const port =  process.env.PORT || 3000;
+app.listen(port);
