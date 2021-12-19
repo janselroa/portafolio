@@ -1,0 +1,28 @@
+.nav {
+    width: 100%;
+    top: 0;
+    position: sticky;
+    background-color: #fff;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    padding: 10px 20px;
+    border-right: 1px solid #dddd;
+}
+
+li:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
