@@ -137,6 +137,11 @@ h3 {
     padding: 10px;
     background-color: #0f0;
 }
+#proyects>p{
+    text-align:center;
+}
+#proyects > p a{
+    color:#00f;
 
 @media screen and (min-width:700px) {
     .container {
