@@ -1,6 +1,7 @@
 @import url("./nav.css");
 body {
     margin: 0;
+    overflow-x:hidden;
     font-family: 'Noto Sans', sans-serif;
     --blue: hsl(224, 100%, 75%)
 }
